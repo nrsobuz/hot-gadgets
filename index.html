@@ -9,7 +9,7 @@
 <style>
 
 .logo-size{
-    height: 50px ;
+    height: 40px ;
 }
 
 
@@ -31,7 +31,7 @@ body{
 .Price-btn{
     height: 30px;
     border-radius: 10px;
-   background-image: linear-gradient(to bottom, white 1%, black 100% );
+   background-image: linear-gradient(to bottom, rgb(212, 26, 26) 1%, orange 100%);
    color: #fff;
     border: none;
     padding: 0 25px 3px;
@@ -41,7 +41,7 @@ body{
 
 
 .margin-Top{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .margin-Btm{
@@ -65,7 +65,7 @@ body{
 
 .img-bdr{
     border: 5px;
-    box-shadow: 5px 5px 10px darkolivegreen ;
+    box-shadow: 5px 5px 10px rgb(252, 213, 240) ;
     height: 200px;
     width: 180px;
 }
@@ -75,17 +75,28 @@ body{
     
 }
 
+
+.see-all{
+    color: darkorange;
+    text-align: right;
+    
+}
+
+.Laptop-aligh{
+    text-align: left;
+}
+
 </style>
 
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="start">
         <nav class="d-flex  navbar navbar-expand-lg navbar-light bg-light">
             <div class="p-2 flex-grow-1 ">
                 <div>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#"> 
                         <img class="logo-size" src="logo.png" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"      aria-expanded="false" aria-label="Toggle navigation">
@@ -140,7 +151,7 @@ body{
                         <p><h1>Mackbook Pro</h1></p>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
                         </p>
-                        <button type="button" class="Price-btn" >Buy Now</button>
+                        <button type="button" class="Price-btn" >Buy Now →</button>
                     </div>
     
                     <div class="col-md-5">
@@ -174,7 +185,7 @@ body{
                         <p><h1>Mackbook Pro</h1></p>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
                         </p>
-                        <button type="button" class="Price-btn" >Buy Now</button>
+                        <button type="button" class="Price-btn" >Buy Now →</button>
                     </div>
     
                     <div class="col-md-5">
@@ -201,35 +212,49 @@ body{
 
     <div class="container margin-Btm margin-Top" id="Smartphone"> 
 
-        <h1 style="text-align: left;" >Smartphone</h1>
+
+        <div class="row">
+            <div class="col-6 Laptop-aligh">
+                <h3> Smartphone </h3>
+            </div>
+                
+            <div class="col-6">
+                <a href="#start"> <h4 class="see-all">Top</a></h4>
+            </div>
+
+        </div>
+
         <div class="card-deck">
           <div class="card">
             <img src="phone/phone-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Supply 350</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <h6>$120</h6>
-              <button type="button" class="Price-btn" >Buy Now >></button>
+            <div style="text-align: center;" class="card-body">
+              <h5 class="card-title">iPhone 11 Pro</h5>
+              <p class="card-text">Some quick example text to build on
+                the card title.</p>
+              <h6 class="margin-Btm margin-Top">$999</h6>
+              <button type="button" class="Price-btn" >Buy Now →</button>
             </div>
           </div>
   
           <div class="card">
             <img src="phone/phone-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Nike 320</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <h6>$320</h6>
-              <button type="button" class="Price-btn" >Buy Now >></button>
+            <div style="text-align: center;" class="card-body">
+              <h5 class="card-title">Samsung Galaxy Note10+</h5>
+              <p class="card-text">Some quick example text to build on
+                the card title.</p>
+              <h6 class="margin-Btm margin-Top">$799</h6>
+              <button type="button" class="Price-btn" >Buy Now →</button>
             </div>
           </div>
   
           <div class="card">
             <img src="phone/phone-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Rex Max</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <h6>$350</h6>
-              <button type="button" class="Price-btn" >Buy Now >></button>
+            <div style="text-align: center;" class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Some quick example text to build on
+                the card title.</p>
+              <h6 class="margin-Btm margin-Top">$699</h6>
+              <button type="button" class="Price-btn" >Buy Now →</button>
             </div>
           </div>
   
@@ -239,47 +264,56 @@ body{
   
     
     <div class="container margin-Btm margin-Top" id="Laptop"> 
-        
-        <h1 style="text-align: left;">Laptop</h1>
+        <div class="row">
+            <div class="col-6 Laptop-aligh">
+                <h3> Laptop </h3>
+            </div>
+                
+            <div class="col-6">
+                <a href="#start"> <h4 class="see-all">Top</a></h4>
+            </div>
+
+        </div>
         <div class="card-deck">
         <div class="card">
-            <img src="bags/bag-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Red Ogio Bakpack</h5>
-            <h6>$120</h6>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-
-            <div class="card-footer">
-            <button class="Price-btn"> Buy Now >> </button>
+            <img src="laptop/product-1.png" class="card-img-top" alt="...">
+            <div style="text-align: center;" class="card-body">
+            <h5 class="card-title">Asus VivoBook</h5>
             
+            <p class="card-text">Some quick example text to build on
+                the card title.</p>
+               
+                <h6 class="margin-Btm margin-Top">$999</h6>
+                <button class="Price-btn"> Buy Now → </button>
             </div>
+
+            
 
         </div>
 
 
         <div class="card">
-            <img src="bags/bag-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Blue Burton Bakpac</h5>
-            <h6>$320</h6>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-            <button class="Price-btn"> Buy Now >> </button>
+            <img src="laptop/product-2.png" class="card-img-top" alt="...">
+            <div style="text-align: center;" class="card-body">
+            <h5 class="card-title">Razer Blade 15</h5>
+           
+            <p class="card-text">Some quick example text to build on
+                the card title.</p>
+            <h6 class="margin-Btm margin-Top">$2799</h6>
+                <button class="Price-btn"> Buy Now → </button>
             </div>
         </div>
 
 
         <div class="card">
-            <img src="bags/bag-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Black Kathmandu Bakpac</h5>
-            <h6>$169</h6>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-            <button class="Price-btn"> Buy Now >> </button>
+            <img src="laptop/product-3.png" class="card-img-top" alt="...">
+            <div style="text-align: center;" class="card-body">
+            <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+            
+            <p class="card-text">Some quick example text to build on
+                the card title.</p>
+                <h6 class="margin-Btm margin-Top">$999</h6>
+                <button class="Price-btn"> Buy Now → </button>
             </div>
         </div>
         
@@ -288,12 +322,12 @@ body{
 
 
     <div class="container margin-Btm" id="Categories">
-        <p><h1 style="text-align: center;">Categories</h1></p>
-        <div class="margin-Top">
+        <p><h3 style="text-align: center;">Categories</h3></p>
+        <div>
 
-        <div class="row d-flex align-items-center">
-
-            <div class="col-md-3 margin-rit d-flex flex-row-reverse">
+        <div class="row">
+            <div class="d-flex align-items-center">
+            <div class="col-md-6 margin-rit d-flex flex-row-reverse">
                 <div class="img-bdr l-top-rediour d-flex align-items-center justify-content-center">
                     
                     <div>
@@ -305,7 +339,7 @@ body{
             </div>
             
 
-            <div class="col-md-3"> 
+            <div class="col-md-6"> 
                 <div class="row margin-Btm">
                     <div class="img-bdr r-top-rediour d-flex align-items-center justify-content-center">
                         <div>
@@ -321,6 +355,7 @@ body{
                     </div>
                 </div>
             </div>
+        </div>
         
 
             <div class="col-md-6">
@@ -330,6 +365,8 @@ body{
         </div>
         
     </div>
+</div>
+
 
 
 
@@ -338,7 +375,9 @@ body{
         
 
 
-
+<footer style="text-align: center;">
+    <small> © Copyright 2020.</small>
+</footer>
 
 
 
